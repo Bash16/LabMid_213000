@@ -117,8 +117,7 @@ namespace LabMid_213000
 
         private void checkedListBox1_SelectedIndexChanged(object sender, ItemCheckEventArgs e)
         {
-            string checkedItem = String.Empty;
-               checkedItem = checkedListBox1.Items[e.Index].ToString();
+            string checkedItem = checkedListBox1.Items[e.Index].ToString();
 
             switch (checkedItem)
             {
